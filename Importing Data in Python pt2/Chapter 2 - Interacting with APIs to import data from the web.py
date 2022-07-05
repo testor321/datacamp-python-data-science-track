@@ -1,16 +1,6 @@
 # Chapter 2 - Interacting with APIs to import data from the web
 
-#Loading and exploring a JSON
-
-# Load JSON: json_data
-with open("a_movie.json") as json_file:
-    json_data = json.load(json_file)
-
-# Print each key-value pair in json_data
-for k in json_data.keys():
-    print(k + ': ', json_data[k])
-
-#API requests
+# API requests
 # Import requests package
 import requests 
 
