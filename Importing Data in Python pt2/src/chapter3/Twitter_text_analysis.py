@@ -1,9 +1,11 @@
 # Plotting your Twitter data
 # Import packages
+import json
+import re
+
 import matplotlib.pyplot as plt
-import seaborn as sns
 import pandas as pd
-import json, re
+import seaborn as sns
 
 
 def word_in_text(word, tweet):
