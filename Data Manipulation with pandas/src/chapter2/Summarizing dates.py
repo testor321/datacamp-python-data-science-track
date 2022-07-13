@@ -1,6 +1,6 @@
 import pandas as pd
 
-sales = pd.read_csv("../../Datasets/walmart.csv")
+sales = pd.read_csv("../../Datasets/sales_subset.csv")
 
 # Print the maximum of the date column
 print(sales["date"].max())

@@ -1,6 +1,6 @@
 import pandas as pd
 
-sales_1_1 = pd.read_csv("../../Datasets/walmart.csv")
+sales_1_1 = pd.read_csv("../../Datasets/sales_subset.csv")
 
 # Sort sales_1_1 by date
 sales_1_1 = sales_1_1.sort_values("date")

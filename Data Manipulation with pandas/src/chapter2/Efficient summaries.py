@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-sales = pd.read_csv("../../Datasets/walmart.csv")
+sales = pd.read_csv("../../Datasets/sales_subset.csv")
 
 
 # A custom IQR function
