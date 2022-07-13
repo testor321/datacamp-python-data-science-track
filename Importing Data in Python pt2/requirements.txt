@@ -1,0 +1,8 @@
+pandas
+urllib3
+matplotlib
+xlrd
+bs4
+requests
+tweepy
+seaborn
