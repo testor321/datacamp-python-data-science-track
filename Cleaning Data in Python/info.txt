@@ -1,0 +1,6 @@
+
+chapter2
+https://nanologisk.github.io/2021/04/05/datacleaning-commonprob.html#finding-consistency
+
+chapter3
+https://github.com/castorfou/data-scientist-skills/tree/1f7e188d5103936ecf0338e8aac48ad422804968/python-sandbox/cleaning-data-in-python/data_from_datacamp

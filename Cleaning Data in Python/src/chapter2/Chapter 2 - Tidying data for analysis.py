@@ -1,8 +1,7 @@
-#Chapter 2 - Tidying data for analysis
+# Chapter 2 - Tidying data for analysis
 
 
-
-#Reshaping your data using melt
+# Reshaping your data using melt
 # Print the head of airquality
 print(airquality.head())
 
@@ -12,7 +11,7 @@ airquality_melt = pd.melt(airquality, id_vars=['Month', 'Day'])
 # Print the head of airquality_melt
 print(airquality_melt.head())
 
-#Customizing melted data
+# Customizing melted data
 # Print the head of airquality
 print(airquality.head())
 
@@ -23,9 +22,9 @@ airquality_melt = pd.melt(airquality, id_vars=['Month', 'Day'], ar_name='measure
 print(airquality_melt.head())
 
 
-#Pivot data
+# Pivot data
 
-#Resetting the index of a DataFrame
+# Resetting the index of a DataFrame
 
 # Print the index of airquality_pivot
 print(airquality_pivot.index)
@@ -40,7 +39,7 @@ print(airquality_pivot.index)
 print(airquality_pivot.head())
 
 
-#Pivoting duplicate values
+# Pivoting duplicate values
 # Pivot airquality_dup: airquality_pivot
 airquality_pivot = airquality_dup.pivot_table(index=['Month', 'Day'], columns='measurement', values='reading', aggfunc=np.mean)
 
@@ -53,7 +52,7 @@ print(airquality_pivot.head())
 # Print the head of airquality
 print(airquality.head())
 
-#Splitting a column with .str
+# Splitting a column with .str
 # Melt tb: tb_melt
 tb_melt = pd.melt(tb, id_vars=['country', 'year'])
 
@@ -66,7 +65,7 @@ tb_melt['age_group'] = tb_melt.variable.str[1:]
 # Print the head of tb_melt
 print(tb_melt.head())
 
-#Splitting a column with .split() and .get()
+# Splitting a column with .split() and .get()
 # Melt ebola: ebola_melt
 ebola_melt = pd.melt(ebola, id_vars=['Date', 'Day'], var_name='type_country', value_name='counts')
 

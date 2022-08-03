@@ -1,0 +1,11 @@
+pandas
+numpy
+datetime
+matplotlib
+missingno
+fuzzywuzzy
+recordlinkage
+names
+essential_generators
+python-Levenshtein
+recordlinkage
